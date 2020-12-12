@@ -16,6 +16,8 @@ sudo mkdir /usr/java
 cd /usr/java
 ```
 
+
+
 **2. Downloading the JDK**
 
 ```
@@ -43,20 +45,26 @@ mv jdk-14.0.2 jdk-14
 vi ~/.zshrc
 ```
 
-Append the lines in the last of the opened file
+
+
+Append the following 2 lines in the opened file
 
 ```
 export JAVA_HOME=/usr/java/jdk-14
 export PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
 ```
 
+
+
+Now source it using the following command.
+
 ```
 source ~/.zshrc
 ```
 
+
+
 **5. Checking the version**
-
-
 
 ```
 java -version
@@ -69,5 +77,7 @@ openjdk version "14.0.2" 2020-07-14
 OpenJDK Runtime Environment (build 14.0.2+12-46)
 OpenJDK 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
 ```
+
+
 
 **6. We are done. Happy coding in Java**
