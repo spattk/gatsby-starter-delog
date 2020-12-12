@@ -47,6 +47,8 @@ vi ~/.zshrc
 
 
 
+
+
 Append the following 2 lines in the opened file
 
 ```
@@ -64,11 +66,15 @@ source ~/.zshrc
 
 
 
+
+
 **5. Checking the version**
 
 ```
 java -version
 ```
+
+
 
 You should get something like the following
 
@@ -77,6 +83,8 @@ openjdk version "14.0.2" 2020-07-14
 OpenJDK Runtime Environment (build 14.0.2+12-46)
 OpenJDK 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
 ```
+
+
 
 
 
