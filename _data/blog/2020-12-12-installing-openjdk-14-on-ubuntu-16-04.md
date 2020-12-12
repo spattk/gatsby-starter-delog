@@ -11,7 +11,7 @@ But I found it difficult to find a working one for Ubuntu 16.04.
 
 Though it can be installed anywhere but it is recommended to have it at the following location.
 
-`sudo mkdir /usr/java `\
+`sudo mkdir /usr/java`\
 `cd /usr/java`
 
 **2. Downloading the JDK**\
@@ -46,9 +46,14 @@ Append the lines in the last of the opened file\
 
 `java -version`
 
-You should get something like the following\
-`openjdk version "14.0.2" 2020-07-14 `\
-`OpenJDK Runtime Environment (build 14.0.2+12-46)`\
-`OpenJDK 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)`
+You should get something like the following
+
+```
+openjdk version "14.0.2" 2020-07-14
+OpenJDK Runtime Environment (build 14.0.2+12-46)
+OpenJDK 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
+```
+
+``
 
 **6. We are done. Happy coding in Java**
