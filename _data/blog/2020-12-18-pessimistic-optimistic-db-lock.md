@@ -8,7 +8,7 @@ title: Pessimistic & Optimistic DB Lock
 
 Ans: To manage write operations in DB in case of concurrent transaction.
 
-![](/assets/fc677d86-6117-4058-85d4-d347db7a3b99 (1).jpg)
+![](/assets/1.jpg)
 
 Marked the **quantity -1** in the above diagram ?
 
@@ -17,8 +17,6 @@ The basic problem that would be caused if we don't have proper locking mechanism
 There comes the title of the article. Implementing either one of pessimistic lock or optimistic lock.
 
 Again what are these locks. *Don't worry. Things gets better with time. Please continue reading...*
-
-
 
 ### **<u>Definition</u>**
 
@@ -47,8 +45,7 @@ Consider two people trying to book a window seat in the Indigo Airlines.
 6. If the seat is available (if the data matches with the old data before the operation), it is proceeded for payment and committed to the DB. Makes the other user fail at one of a similar check points.
 7. Else the transaction fails
 
-*Still didn't get. Don't worry.*
-Consider another case of a ecommerce purchase with the following diagrams.
+*Still didn't get. Don't worry.* Consider another case of a ecommerce purchase with the following diagrams.
 
 <br>
 
