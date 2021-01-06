@@ -26,7 +26,9 @@ title: Books read during 2020.
 
    \- Shastri ji's idea of more Anand like places
 
-   \- 
+   \- Operation flood and the proposal to get help from WFP / United Nations.
+
+   \- Setting up of IDC (India Diary Corporation to handle the work)
 4. Hit Refresh: The Quest to Rediscover Microsoft's Soul and Imagine a Better Future for Everyone (Still incomplete)
 
 Summaries coming soon. Stay tuned ...
