@@ -29,6 +29,8 @@ title: Books read during 2020.
    \- Operation flood and the proposal to get help from WFP / United Nations.
 
    \- Setting up of IDC (India Diary Corporation to handle the work)
+
+   \- Kurien understood the market well, if there won't be any market, higher production and everything around is meaningless.
 4. Hit Refresh: The Quest to Rediscover Microsoft's Soul and Imagine a Better Future for Everyone (Still incomplete)
 
 Summaries coming soon. Stay tuned ...
