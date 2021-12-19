@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /met-swapnil
-date: 2020-12-19T04:20:00.000Z
+date: 2021-12-19T04:20:00.000Z
 title: Nice Talking with Swapnil
 ---
 I got to learn these following
