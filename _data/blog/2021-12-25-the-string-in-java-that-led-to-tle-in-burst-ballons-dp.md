@@ -112,8 +112,6 @@ Guess what ?
 
 Yes you are correct, this solution gave me a TLE (Time Limit Exceeded).
 
-
-
 <u>Solution</u>\
 I just replace my map with a 2D array and things worked like a charm.
 
@@ -159,12 +157,10 @@ class Solution {
 }
 ```
 
+See, no difference at all. But this passes the leetcode's OJ.
 
+What I feel is building that String everytime is kinda time consuming because in Java they need to instantiated everytime and that might be the bottleneck. (I am not sure what else could be the reason).
 
-See, no difference at all.
-
-What I feel is building that String everytime is kinda time consuming because in Java. (I am not sure what else could be the reason).
-
-I would be happy to get enlighened.
+Though, I would be happy to get enlighened.
 
 Thank you, that's it for today. Keep learning and Keep Coding.
