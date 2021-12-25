@@ -2,11 +2,11 @@
 template: BlogPost
 path: /string-java-tle-burst-balloon
 date: 2021-12-25T01:52:56.768Z
-title: The "String" in Java that led to TLE in Burst Balloons DP
+title: The "String+HashMap" in Java that led to TLE in Burst Balloons DP
 ---
-Burst Ballons is a very famous Leetcode hard dynamic programming (DP) problem.
+Burst Balloons is a very famous Leetcode hard dynamic programming (DP) problem.
 
-It's kind of tricky but once you have understood how the classical patterns of Matrix Chain Multiplication variant works, it won't be that hard as it looks like.
+It's kind of tricky but once you have understood how the classical patterns of Matrix Chain Multiplication variant work, it won't be that hard as it looks like.
 
 So, coming back to the whole point of this post. This post doesn't tell you how to solve or an intuition behind it. It is generally a slight variation in the memoized version of the DP that blew my mind.
 
@@ -25,7 +25,7 @@ No?
 Alright, see the below example
 
 ```java
-HashMap<String, Integer> map
+HashMap<String, Integer> map;
 int dpSolver(int nums[], int i, int j){
   if(i > j)
     return 0;
@@ -70,7 +70,7 @@ So, in case of solving the burst balloons problem, I did use what I had been usi
 
 Following is the full solution for the burst balloon question in [Leetcode](https://leetcode.com/problems/burst-balloons/).
 
-```
+```java
 class Solution {
     
     Map<String, Integer> map;
@@ -108,12 +108,16 @@ class Solution {
 }
 ```
 
-Guess what ?
+<br>
 
-Yes you are correct, this solution gave me a TLE (Time Limit Exceeded).
+Guess what?
+
+Yes, you are correct, this solution gave me a TLE (Time Limit Exceeded).
 
 <u>Solution</u>\
 I just replace my map with a 2D array and things worked like a charm.
+
+<br>
 
 ```
 class Solution {
@@ -157,10 +161,24 @@ class Solution {
 }
 ```
 
-See, no difference at all. But this passes the leetcode's OJ.
+<br>
 
-What I feel is building that String everytime is kinda time consuming because in Java they need to instantiated everytime and that might be the bottleneck. (I am not sure what else could be the reason).
+See, no difference at all. But this passes the Leetcode's OJ.
 
-Though, I would be happy to get enlighened.
+```
+HashMap+String Memoized -> ~2600 ms﻿
+2D Array Memoized -> ~120 ms﻿
+﻿
+I even calculated the creation of String everytime and kept adding it, but it wasn't taking much time.﻿
+All the string creation in the program were around -> ~20ms.
+```
 
+<br>
+﻿
+What I feel is the combined time of Hashing, creating a corresponding String key as well as putting the value at the correct bucket (including handling collisions) amount to this time difference.
+﻿
+I am not sure of what is happening internally.
+Though, I would be happy to get enlightened.
+﻿
 Thank you, that's it for today. Keep learning and Keep Coding.
+Wish you a great Christmas Eve. May all of your dreams get fulfilled and you stay happy always.
