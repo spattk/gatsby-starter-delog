@@ -2,7 +2,7 @@
 template: BlogPost
 path: /string-java-tle-burst-balloon
 date: 2021-12-25T01:52:56.768Z
-title: The "String" in Java that led to TLE in Burst Ballons DP
+title: The "String" in Java that led to TLE in Burst Balloons DP
 ---
 Burst Ballons is a very famous Leetcode hard dynamic programming (DP) problem.
 
