@@ -119,7 +119,7 @@ I just replace my map with a 2D array and things worked like a charm.
 
 <br>
 
-```
+```java
 class Solution {
     
     
@@ -165,7 +165,7 @@ class Solution {
 
 See, no difference at all. But this passes the Leetcode's OJ.
 
-```
+```html
 HashMap+String Memoized -> ~2600 ms﻿
 2D Array Memoized -> ~120 ms﻿
 ﻿
@@ -176,8 +176,6 @@ All the string creation in the program were around -> ~20ms.
 <br>
 ﻿What I feel is the combined time of Hashing, creating a corresponding String key as well as putting the value at the correct bucket (including handling collisions) amount to this time difference.
 
-I am not sure of what is happening internally.
-Though, I would be happy to get enlightened.
-﻿
-Thank you, that's it for today. Keep learning and Keep Coding.
-Wish you a great Christmas Eve. May all of your dreams get fulfilled and you stay happy always.
+I am not sure of what is happening internally. Though, I would be happy to get enlightened.
+
+Thank you, that's it for today. Keep learning and Keep Coding. Wish you a great Christmas Eve. May all of your dreams get fulfilled and you stay happy always.
