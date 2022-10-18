@@ -4,7 +4,7 @@ path: /threads-vs-runnable
 date: 2022-10-18T19:47:51.694Z
 title: Threads vs Runnable
 ---
-```
+```java
 class ImplementsRunnable implements Runnable {
 
     private int counter = 0;
